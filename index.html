@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="top">
+        <div class="nav-bar">
+          <p class="deg-or-rad">DEG</p>
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+        <div class="calculate-area">
+          <div id="input" class="input"></div>
+          <div id="display" class="result">0</div>
+        </div>
+        <div class="bar"></div>
+      </div>
+      <div id="buttons" class="bottom">
+        <div class="numpad">
+          <button id="7" class="numpad-button">7</button>
+          <button id="8" class="numpad-button">8</button>
+          <button id="9" class="numpad-button">9</button>
+          <button id="4" class="numpad-button">4</button>
+          <button id="5" class="numpad-button">5</button>
+          <button id="6" class="numpad-button">6</button>
+          <button id="1" class="numpad-button">1</button>
+          <button id="2" class="numpad-button">2</button>
+          <button id="3" class="numpad-button">3</button>
+          <button id="0" class="numpad-button">0</button>
+          <button id="." class="numpad-button">.</button>
+          <button id="=" class="numpad-button">=</button>
+        </div>
+        <div class="operators">
+          <button class="backspace">C</button>
+          <button class="divide">/</button>
+          <button class="multiply">X</button>
+          <button class="subtract">-</button>
+          <button class="add">+</button>
+        </div>
+        <div class="blue-strip">
+          <i class="fas fa-chevron-left"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- js -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
